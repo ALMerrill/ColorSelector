@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Tutorial
+//  ColorSelector
 //
 //  Created by Andrew Merrill on 11/10/18.
 //  Copyright © 2018 Andrew Merrill. All rights reserved.

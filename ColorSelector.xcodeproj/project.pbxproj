@@ -12,7 +12,8 @@
 		14DB4AFF2197792C00900AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DB4AFD2197792C00900AA4 /* Main.storyboard */; };
 		14DB4B012197792C00900AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14DB4B002197792C00900AA4 /* Assets.xcassets */; };
 		14DB4B042197792C00900AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DB4B022197792C00900AA4 /* LaunchScreen.storyboard */; };
-		14DB4B0F2197792D00900AA4 /* TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB4B0E2197792D00900AA4 /* TutorialTests.swift */; };
+		14DB4B0F2197792D00900AA4 /* ColorSelectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB4B0E2197792D00900AA4 /* ColorSelectorTests.swift */; };
+		14E7E17D21993B7700BA805E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E7E17C21993B7700BA805E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14DB4AF62197792C00900AA4 /* Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DB4AF62197792C00900AA4 /* ColorSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DB4AF92197792C00900AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14DB4AFB2197792C00900AA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14DB4AFE2197792C00900AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14DB4B002197792C00900AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14DB4B032197792C00900AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14DB4B052197792C00900AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14DB4B0A2197792D00900AA4 /* TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14DB4B0E2197792D00900AA4 /* TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialTests.swift; sourceTree = "<group>"; };
+		14DB4B0A2197792D00900AA4 /* ColorSelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorSelectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DB4B0E2197792D00900AA4 /* ColorSelectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectorTests.swift; sourceTree = "<group>"; };
 		14DB4B102197792D00900AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E7E17C21993B7700BA805E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,9 @@
 		14DB4AED2197792C00900AA4 = {
 			isa = PBXGroup;
 			children = (
-				14DB4AF82197792C00900AA4 /* Tutorial */,
-				14DB4B0D2197792D00900AA4 /* TutorialTests */,
+				14E7E17C21993B7700BA805E /* Default-568h@2x.png */,
+				14DB4AF82197792C00900AA4 /* ColorSelector */,
+				14DB4B0D2197792D00900AA4 /* ColorSelectorTests */,
 				14DB4AF72197792C00900AA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,13 +71,13 @@
 		14DB4AF72197792C00900AA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14DB4AF62197792C00900AA4 /* Tutorial.app */,
-				14DB4B0A2197792D00900AA4 /* TutorialTests.xctest */,
+				14DB4AF62197792C00900AA4 /* ColorSelector.app */,
+				14DB4B0A2197792D00900AA4 /* ColorSelectorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14DB4AF82197792C00900AA4 /* Tutorial */ = {
+		14DB4AF82197792C00900AA4 /* ColorSelector */ = {
 			isa = PBXGroup;
 			children = (
 				14DB4AF92197792C00900AA4 /* AppDelegate.swift */,
@@ -84,24 +87,24 @@
 				14DB4B022197792C00900AA4 /* LaunchScreen.storyboard */,
 				14DB4B052197792C00900AA4 /* Info.plist */,
 			);
-			path = Tutorial;
+			path = ColorSelector;
 			sourceTree = "<group>";
 		};
-		14DB4B0D2197792D00900AA4 /* TutorialTests */ = {
+		14DB4B0D2197792D00900AA4 /* ColorSelectorTests */ = {
 			isa = PBXGroup;
 			children = (
-				14DB4B0E2197792D00900AA4 /* TutorialTests.swift */,
+				14DB4B0E2197792D00900AA4 /* ColorSelectorTests.swift */,
 				14DB4B102197792D00900AA4 /* Info.plist */,
 			);
-			path = TutorialTests;
+			path = ColorSelectorTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14DB4AF52197792C00900AA4 /* Tutorial */ = {
+		14DB4AF52197792C00900AA4 /* ColorSelector */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14DB4B132197792D00900AA4 /* Build configuration list for PBXNativeTarget "Tutorial" */;
+			buildConfigurationList = 14DB4B132197792D00900AA4 /* Build configuration list for PBXNativeTarget "ColorSelector" */;
 			buildPhases = (
 				14DB4AF22197792C00900AA4 /* Sources */,
 				14DB4AF32197792C00900AA4 /* Frameworks */,
@@ -111,14 +114,14 @@
 			);
 			dependencies = (
 			);
-			name = Tutorial;
+			name = ColorSelector;
 			productName = Tutorial;
-			productReference = 14DB4AF62197792C00900AA4 /* Tutorial.app */;
+			productReference = 14DB4AF62197792C00900AA4 /* ColorSelector.app */;
 			productType = "com.apple.product-type.application";
 		};
-		14DB4B092197792D00900AA4 /* TutorialTests */ = {
+		14DB4B092197792D00900AA4 /* ColorSelectorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14DB4B162197792D00900AA4 /* Build configuration list for PBXNativeTarget "TutorialTests" */;
+			buildConfigurationList = 14DB4B162197792D00900AA4 /* Build configuration list for PBXNativeTarget "ColorSelectorTests" */;
 			buildPhases = (
 				14DB4B062197792D00900AA4 /* Sources */,
 				14DB4B072197792D00900AA4 /* Frameworks */,
@@ -129,9 +132,9 @@
 			dependencies = (
 				14DB4B0C2197792D00900AA4 /* PBXTargetDependency */,
 			);
-			name = TutorialTests;
+			name = ColorSelectorTests;
 			productName = TutorialTests;
-			productReference = 14DB4B0A2197792D00900AA4 /* TutorialTests.xctest */;
+			productReference = 14DB4B0A2197792D00900AA4 /* ColorSelectorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 14DB4AF12197792C00900AA4 /* Build configuration list for PBXProject "Tutorial" */;
+			buildConfigurationList = 14DB4AF12197792C00900AA4 /* Build configuration list for PBXProject "ColorSelector" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,8 +169,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14DB4AF52197792C00900AA4 /* Tutorial */,
-				14DB4B092197792D00900AA4 /* TutorialTests */,
+				14DB4AF52197792C00900AA4 /* ColorSelector */,
+				14DB4B092197792D00900AA4 /* ColorSelectorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14DB4B042197792C00900AA4 /* LaunchScreen.storyboard in Resources */,
+				14E7E17D21993B7700BA805E /* Default-568h@2x.png in Resources */,
 				14DB4B012197792C00900AA4 /* Assets.xcassets in Resources */,
 				14DB4AFF2197792C00900AA4 /* Main.storyboard in Resources */,
 			);
@@ -206,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DB4B0F2197792D00900AA4 /* TutorialTests.swift in Sources */,
+				14DB4B0F2197792D00900AA4 /* ColorSelectorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +219,7 @@
 /* Begin PBXTargetDependency section */
 		14DB4B0C2197792D00900AA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 14DB4AF52197792C00900AA4 /* Tutorial */;
+			target = 14DB4AF52197792C00900AA4 /* ColorSelector */;
 			targetProxy = 14DB4B0B2197792D00900AA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -362,12 +366,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MWTK6TN8V;
-				INFOPLIST_FILE = Tutorial/Info.plist;
+				INFOPLIST_FILE = ColorSelector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.Tutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.ColorSelector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,12 +384,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MWTK6TN8V;
-				INFOPLIST_FILE = Tutorial/Info.plist;
+				INFOPLIST_FILE = ColorSelector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.Tutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.ColorSelector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -405,11 +409,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.TutorialTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.ColorSelectorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutorial.app/Tutorial";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorSelector.app/ColorSelector";
 			};
 			name = Debug;
 		};
@@ -426,18 +430,18 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.TutorialTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.ColorSelectorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutorial.app/Tutorial";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorSelector.app/ColorSelector";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14DB4AF12197792C00900AA4 /* Build configuration list for PBXProject "Tutorial" */ = {
+		14DB4AF12197792C00900AA4 /* Build configuration list for PBXProject "ColorSelector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14DB4B112197792D00900AA4 /* Debug */,
@@ -446,7 +450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14DB4B132197792D00900AA4 /* Build configuration list for PBXNativeTarget "Tutorial" */ = {
+		14DB4B132197792D00900AA4 /* Build configuration list for PBXNativeTarget "ColorSelector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14DB4B142197792D00900AA4 /* Debug */,
@@ -455,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14DB4B162197792D00900AA4 /* Build configuration list for PBXNativeTarget "TutorialTests" */ = {
+		14DB4B162197792D00900AA4 /* Build configuration list for PBXNativeTarget "ColorSelectorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14DB4B172197792D00900AA4 /* Debug */,
